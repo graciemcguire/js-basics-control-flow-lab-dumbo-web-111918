@@ -1,1 +1,1 @@
-const scuberGreetingForFeet();
+function scuberGreetingForFeet(){}

@@ -7,6 +7,6 @@ function scuberGreetingForFeet(feet) {
   }
   elsif (feet > 2000){
     result += feet
-    return 
+    return "I will gladly take your thirty bucks."
   }
 }

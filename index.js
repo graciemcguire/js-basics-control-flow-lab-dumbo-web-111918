@@ -7,7 +7,7 @@ function scuberGreetingForFeet(feet) {
     result += feet
     return "I will gladly take your thirty bucks."
   }
-  else (feet < 400) {
+  else if (feet < 400) {
     result += feet 
     return "This one is on me!"
   }

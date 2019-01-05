@@ -5,5 +5,5 @@ function scuberGreetingForFeet(feet) {
     result = feet 
     return "This one is on me!"
   }
-  elsif (feet )
+  elsif (feet > )
 }

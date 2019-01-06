@@ -18,3 +18,24 @@ function ternaryCheckCity(city) {
 }
 
 function swithOnCharmFromTip(){}
+
+
+ 
+let permissionsLevel;
+let canViewProfiles = false;
+let canImpersonateUsers = false;
+ 
+switch (accountType) {
+    case 'guest':
+        permissionsLevel = 0;
+        break;
+    case 'user':
+        permissionsLevel = 10;
+        canViewProfiles = true;
+        break;
+    case 'admin':
+        permissionsLevel = 20;
+        canViewProfiles = true;
+        canImpersonateUsers = true;
+        break;
+}

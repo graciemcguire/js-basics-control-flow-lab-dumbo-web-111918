@@ -25,7 +25,7 @@ function swithOnCharmFromTip(tip){
     case 'not so generous':
       "Thank you."
       break;
-    case ''  
+    default ''  
   }
 }
 

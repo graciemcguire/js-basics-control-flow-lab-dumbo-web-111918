@@ -18,7 +18,9 @@ function ternaryCheckCity(city) {
 }
 
 function swithOnCharmFromTip(tip){
-  switch(tip)
+  switch(tip){
+    case
+  }
 }
 
 

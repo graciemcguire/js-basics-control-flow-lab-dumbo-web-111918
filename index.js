@@ -14,20 +14,5 @@ function scuberGreetingForFeet(feet) {
 }
 
 function ternaryCheckCity(city) {
-  const checkCity = city === "New York" ? "Ok, sounds good." : false;
-  return "Ok, sounds good."
-  
+  return (city === "New York" ? "Ok, sounds good." : "No go.")
 }
-
-function getFee(isMember) {
-  return (isMember ? "$2.00" : "$10.00");
-}
-
-console.log(getFee(true));
-// expected output: "$2.00"
-
-console.log(getFee(false));
-// expected output: "$10.00"
-
-console.log(getFee(1));
-// expected output: "$2.00"

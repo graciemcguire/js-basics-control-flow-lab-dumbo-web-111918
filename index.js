@@ -14,7 +14,7 @@ function scuberGreetingForFeet(feet) {
 }
 
 function ternaryCheckCity(city) {
-  const checkCity = city 
+  const checkCity = city === "New York" ? true : false;
 }
 
 const age = 17;
